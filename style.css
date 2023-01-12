@@ -1,16 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
 
 
 body{
     font-family: 'Poppins', sans-serif;;
 }
 
+section{
+    height: 500px;
+}
+
 h1{
+    padding-top: 70px;
     font-size: 50px;
 }
 
 #name-highlight{
     color: orange;
+}
+
+.top-banner{
+    background-image: url("resourse/developer-portfolio/top-banner.png");
+    background-repeat: no-repeat;
 }
 
 .half-width{
@@ -23,4 +37,68 @@ h1{
 .half-width img{
     width: 100%;
     padding-top: 40px;
+}
+
+.btn-hero{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: 600px;
+    background-image: linear-gradient(salmon, tomato);
+    padding: 10px 20px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.dream{
+    float: right;
+    padding-right: 2%;
+
+}
+
+.Dream{
+    background-image: url(resourse/developer-portfolio/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position: right;
+}
+
+
+.orange-highlight{
+    color: orange;
+}
+
+
+.single{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+    height: 60%;
+}
+
+
+.font-size{
+    font-size: 40px;
+}
+
+.experience{
+    background-image: url(resourse/developer-portfolio/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
 }
